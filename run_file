@@ -1,0 +1,15 @@
+yacc filename.y
+lex filename.l
+cc lex.yy.c y.tab.c
+./a.out
+
+
+lex filename.l
+gcc lex.yy.c
+./a.out
+
+vim filename.l
+i
+esc
+shift+;
+wq
